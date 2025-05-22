@@ -15,7 +15,7 @@ def print_all_cpu():
     db.close()
 
 while True:
-    user_input = input('What would you like to do?\n1 Print all cpu.\n3 Exit.')
+    user_input = input('What would you like to do?\n1 Print all cpu.\n2 Exit.')
     if user_input == '1':
         print_all_cpu()
     if user_input == '2':
